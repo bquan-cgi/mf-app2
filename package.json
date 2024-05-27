@@ -11,6 +11,8 @@
     "format": "prettier --write \"**/*.{ts,tsx,md}\""
   },
   "dependencies": {
+    "@group-ui/design-tokens-css": "https://groupui-design-tokens.vwapps.run/packages/latest/css/design-tokens-css.tgz",
+    "@group-ui/group-ui-react": "https://groupui.vwapps.run/latest/packages/group-ui-react.tgz",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
