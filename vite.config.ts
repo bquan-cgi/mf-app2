@@ -14,7 +14,8 @@ export default defineConfig({
         "./App2Content": "./src/App2Content",
       },
       remotes: {
-        mainApp: "http://localhost:5001/assets/remoteEntry.js",
+        // mainApp: "http://localhost:5001/assets/remoteEntry.js",
+        shellApp: "http://localhost:8080/assets/remoteEntry.js",
       },
       shared: ["react", "react-dom"],
     }),

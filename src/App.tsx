@@ -1,4 +1,4 @@
-import MainLayout from "mainApp/MainLayout";
+import MainLayout from "shellApp/MainLayout";
 
 function App() {
   return (

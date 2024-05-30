@@ -1,0 +1,4 @@
+.example {
+  color: var(--groupui-sys-color-action-bg-primary-default);
+  background-color: var(--groupui-sys-color-danger-basic-default);
+}

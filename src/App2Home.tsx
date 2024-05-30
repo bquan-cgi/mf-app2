@@ -1,18 +1,19 @@
-import CounterButton from "mainApp/CounterButton";
-import { GroupuiInput, GroupuiButton } from "@group-ui/group-ui-react";
+import CounterButton from "shellApp/CounterButton";
+import { GroupuiButton } from "@group-ui/group-ui-react";
 
 export default function App2Home() {
   return (
     <div className="app2 p-5 bg-blue-500">
       <h1>App2 Home</h1>
-      <CounterButton></CounterButton>
 
-      <GroupuiInput placeholder="Your Name"></GroupuiInput>
+      <h1>CounterButton from app 2</h1>
+
       <GroupuiButton onClick={() => console.log("Clicked")}>
-        Click Me!
+        GroupuiButton from app 2!
       </GroupuiButton>
 
-      <a href="app2content">go to app2 content</a>
+      <h1>CounterButton from shell Home</h1>
+      <CounterButton></CounterButton>
     </div>
   );
 }
