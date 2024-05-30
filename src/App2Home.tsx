@@ -1,5 +1,5 @@
 import CounterButton from "shellApp/CounterButton";
-import { GroupuiButton } from "@group-ui/group-ui-react";
+import { Groupui1010Button } from "@group-ui/group-ui-react";
 
 export default function App2Home() {
   return (
@@ -8,9 +8,9 @@ export default function App2Home() {
 
       <h1>CounterButton from app 2</h1>
 
-      <GroupuiButton onClick={() => console.log("Clicked")}>
+      <Groupui-10-1-0-Button onClick={() => console.log("Clicked")}>
         GroupuiButton from app 2!
-      </GroupuiButton>
+      </Groupui-10-1-0-Button>
 
       <h1>CounterButton from shell Home</h1>
       <CounterButton></CounterButton>
