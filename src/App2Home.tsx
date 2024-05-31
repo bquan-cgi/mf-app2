@@ -8,9 +8,9 @@ export default function App2Home() {
 
       <h1>CounterButton from app 2</h1>
 
-      <Groupui-10-1-0-Button onClick={() => console.log("Clicked")}>
+      <Groupui1010Button onClick={() => console.log("Clicked")}>
         GroupuiButton from app 2!
-      </Groupui-10-1-0-Button>
+      </Groupui1010Button>
 
       <h1>CounterButton from shell Home</h1>
       <CounterButton></CounterButton>
