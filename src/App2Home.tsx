@@ -1,5 +1,8 @@
 import CounterButton from "shellApp/CounterButton";
 import { Groupui1010Button } from "@group-ui/group-ui-react";
+import { defineCustomElements } from '@group-ui/group-ui-react/node_modules/@group-ui/group-ui/dist/components';
+
+void defineCustomElements();
 
 export default function App2Home() {
   return (
