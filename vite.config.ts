@@ -11,11 +11,12 @@ export default defineConfig({
       filename: "remoteEntry.js",
       exposes: {
         "./App2Home": "./src/App2Home",
-        "./App2Content": "./src/App2Content",
+        "./App2Content": "./src/App2Content",        
+        "./CounterButton": "./src/CounterButton",
       },
       remotes: {
-        // mainApp: "http://localhost:5001/assets/remoteEntry.js",
-        shellApp: "http://localhost:8080/assets/remoteEntry.js",
+        shellApp: "http://localhost:5001/assets/remoteEntry.js",
+        //shellApp: "http://localhost:8080/assets/remoteEntry.js",
       },
       shared: ["react", "react-dom"],
     }),
