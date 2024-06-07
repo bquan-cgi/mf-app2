@@ -18,7 +18,7 @@ export default defineConfig({
         shellApp: "http://localhost:5001/assets/remoteEntry.js",
         //shellApp: "http://localhost:8080/assets/remoteEntry.js",
       },
-      shared: ["react", "react-dom"],
+      shared: ["react", "react-dom", "@group-ui/group-ui-react-latest"],
     }),
   ],
   build: {
