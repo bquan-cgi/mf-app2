@@ -1,4 +1,4 @@
-import CounterButton from "shellApp/CounterButton";
+
 import { GroupuiButton } from "@group-ui/group-ui-react-latest";
 import { defineCustomElements } from '@group-ui/group-ui-react-latest/node_modules/@group-ui/group-ui/dist/components';
 
@@ -16,7 +16,7 @@ export default function App2Home() {
       </GroupuiButton>
 
       <h1>CounterButton from shell Home</h1>
-      <CounterButton></CounterButton>
+      {/* <CounterButton></CounterButton> */}
     </div>
   );
 }
